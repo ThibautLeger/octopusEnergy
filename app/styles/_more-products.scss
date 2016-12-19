@@ -1,0 +1,30 @@
+.more-products {
+	h2 {
+		text-align: center;
+		color: white;
+		font-weight: normal;
+	}
+	.thumb {
+		margin-bottom: 15px;
+		img {
+			width: 100%;
+			max-width: none;
+			border-radius: 5px 5px 0 0;
+		}
+		.text {
+			background: white;
+			border-radius: 5px;
+			padding-bottom: 10px;
+		}
+	}
+
+	h3 {
+		font-size: 28px;
+		font-weight: bold;
+		padding: 0 10px;
+	}
+	.price {
+		font-size: 28px;
+		padding: 0 10px;
+	}
+}

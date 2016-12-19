@@ -1,0 +1,11 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/slick-carousel/slick/slick.scss";
+// endbower
+@import "_scaffolding.scss";
+@import "_navbar.scss";
+@import "_featured-article.scss";
+@import "_more-products.scss";
+@import "_footer.scss"

@@ -1,0 +1,54 @@
+.navbar {
+	background-color: black;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	border: none;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	padding: 0 15px;
+	border-radius: 0;
+	margin: 0;
+	@media (min-width: 768px) {
+		padding: 0;
+		position: static;
+	}
+	.navbar-header {
+		border: none;
+		.navbar-toggle {
+		    margin: 0;
+		    padding: 0;
+		    margin: 14px 0;
+		    border: 0;
+		    @media (min-width: 768px) {
+				pmargin: 14px 0;
+			}
+		    &:hover {
+		    	background: none;
+		    }
+		    .icon-bar {
+				background-color: #FFFFFF;
+				width: 23px;
+	    		height: 3px;
+	    		border-radius: 0px;
+			}
+		}
+	}
+	.navbar-brand {
+		text-indent: -9999%;
+		width: 155px;
+		background: url(../images/octopus-logo.svg) no-repeat;
+		background-size: 155px;
+		background-position: center;
+	}
+	.navbar-collapse {
+		background: rgba(0, 0, 0, 0.5);
+		ul {
+			.active {
+				a {
+					background: none;
+					color: white;
+				}
+			}
+		}
+	}
+}

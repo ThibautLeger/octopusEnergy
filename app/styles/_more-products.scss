@@ -1,4 +1,18 @@
 .more-products {
+	@media (min-width: 768px) {
+		.slick-list {
+			padding: 0 !important;
+			.slick-track {
+				width: 100% !important;
+				.slick-slide {
+					width: calc(100% / 3) !important;
+				}
+			}
+		}
+	}
+	div {
+		outline: none;
+	}
 	h2 {
 		text-align: center;
 		color: white;
@@ -17,7 +31,14 @@
 			padding-bottom: 10px;
 		}
 	}
-
+	a {
+		color: black;
+		outline: none;
+		&:hover {
+			color: #337ab7;
+			text-decoration: none;
+		}
+	}
 	h3 {
 		font-size: 28px;
 		font-weight: bold;
